@@ -1,4 +1,4 @@
-- name: Adding some security rules to the firewall
+- name: Adding some security rule to the firewall
   hosts: my-firewall
   connection: local
   gather_facts: False
