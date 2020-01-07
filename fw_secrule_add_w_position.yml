@@ -7,7 +7,7 @@
 #    - role: PaloAltoNetworks.paloaltonetworks
 
   tasks:
-  - name: Grab the credentials from ansible-vault
+  - name: Grab te credentials from ansible-vault
     include_vars: 'firewall-secrets.yml'
     no_log: 'yes'
 
